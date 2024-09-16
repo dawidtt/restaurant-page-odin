@@ -1,3 +1,28 @@
-h1 {
-  color: orange;
+#content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#content img {
+  width: 550px;
+  height: 600px;
+}
+.content-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 150px;
+  margin: 50px 150px;
+}
+
+.right-content-wrapper h1 {
+  color: #f27d16;
+  font-size: 4.8rem;
+  margin: 0;
+  margin-bottom: 50px;
+}
+.home-text {
+  color: #ffffff;
+  max-width: 60ch;
+  font-size: 2rem;
+  line-height: 3.5rem;
 }

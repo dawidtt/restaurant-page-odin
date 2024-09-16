@@ -1,2 +1,3 @@
-import * as renderFnc from "./home/home.js";
-renderFnc.renderHomePage();
+import "./template.css";
+import * as home from "./home/home.js";
+home.renderHomePage();
