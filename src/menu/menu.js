@@ -1,7 +1,9 @@
 import "./menu.css";
 export function renderMenuPage() {
+  const menuContainer = document.createElement("div");
+  menuContainer.classList.add("menu-container");
   const pizzaContainer = document.createElement("div");
-  pizzaContainer.classList.add("pizza-container");
+  pizzaContainer.classList.add("food-class-container");
   const pizzaHeading = document.createElement("h3");
   pizzaHeading.textContent = "Pizza";
   const pizzaNames = document.createElement("div");
@@ -31,7 +33,7 @@ export function renderMenuPage() {
   pizzaContainer.appendChild(pizzaNames);
 
   const burgerContainer = document.createElement("div");
-  burgerContainer.classList.add("burger-container");
+  burgerContainer.classList.add("food-class-container");
   const burgerHeading = document.createElement("h3");
   burgerHeading.textContent = "Burger";
   const burgerNames = document.createElement("div");
@@ -61,6 +63,7 @@ export function renderMenuPage() {
   burgerContainer.appendChild(burgerNames);
 
   const contentPath = document.querySelector("#content");
-  contentPath.appendChild(pizzaContainer);
-  contentPath.appendChild(burgerContainer);
+  menuContainer.appendChild(pizzaContainer);
+  menuContainer.appendChild(burgerContainer);
+  contentPath.appendChild(menuContainer);
 }
