@@ -1,5 +1,6 @@
 import "./template.css";
 import * as home from "./home/home.js";
+import * as menu from "./menu/menu.js";
 
 (function () {
   function clearContent(e) {
@@ -20,7 +21,7 @@ import * as home from "./home/home.js";
   homeBtn.addEventListener("click", clearContent);
   homeBtn.addEventListener("click", home.renderHomePage);
   menuBtn.addEventListener("click", clearContent);
-  menuBtn.addEventListener("click", home.renderHomePage);
+  menuBtn.addEventListener("click", menu.renderMenuPage);
   aboutBtn.addEventListener("click", clearContent);
   aboutBtn.addEventListener("click", home.renderHomePage);
 })();
