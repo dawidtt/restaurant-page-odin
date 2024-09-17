@@ -10,7 +10,7 @@ export function renderHomePage() {
 
   const rightContentWrapper = document.createElement("div");
   rightContentWrapper.classList.add("right-content-wrapper");
-  const headingTag = document.createElement("h1");
+  const headingTag = document.createElement("h2");
   headingTag.textContent = "Taste the rich flavour of high quality meals";
   const textUnderHeading = document.createElement("p");
   textUnderHeading.classList.add("home-text");

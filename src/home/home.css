@@ -14,11 +14,14 @@
   margin: 50px 150px;
 }
 
-.right-content-wrapper h1 {
+.right-content-wrapper h2 {
   color: #f27d16;
-  font-size: 3.8rem;
+  font-size: 3.6rem;
   margin: 0;
   margin-bottom: 50px;
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .home-text {
   color: #ffffff;
